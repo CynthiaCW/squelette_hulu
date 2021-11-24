@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600&display=swap');
+
+/*general*/
+*{
+    margin:0;
+    color: white;
+    font-family: "Outfit", sans-serif;
+}
+/*fin general*/
+
+/*header*/
+header{
+    background-color: #A63740;
+}
+#tete{
+    display: flex;
+    height: 60px;
+}
+
+.title{
+    flex:1;
+    font-family: "Outfit";
+    text-align: center;
+    align-self: center;
+    font-weight: Thin 100;
+    font-size: 16px;
+    letter-spacing: 5px;
+}
+
+.close {
+    align-self: center;
+    padding-right: 10px;
+}
+/*fin header*/
+
+/*main*/
+main{
+    /*background-color:#ff0008;*/
+    background: url(img/handmaids_main-1280x720-1.jpg),linear-gradient(90deg,#A63740,#1D2126);
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+#imgban {
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 40px;
+}
+
+#presentation {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 40px;
+
+}
+
+.genre>ul li::after {
+    content:" •";
+}
+
+.description_bas {
+    display: inline;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.description_bas>ul li {
+    display: inline;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.description_bas>ul li:hover {
+    border-bottom: 1px solid white;
+    line-height: 4px;
+    border-width: 0 0 3px;
+}
+
+.imageslider {
+    display: flex;
+    justify-content: space-around;
+    padding: 33px;
+}
+
+
+/*fin main*/
+
+/*Footer*/
+footer{
+    background-color: #1D2126;
+}
+/*fin footer*/
