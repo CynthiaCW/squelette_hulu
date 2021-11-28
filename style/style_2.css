@@ -22,46 +22,88 @@ header{
     font-family: "Outfit";
     text-align: center;
     align-self: center;
-    font-weight: Thin 100;
+    font-weight: 300;
     font-size: 16px;
     letter-spacing: 5px;
 }
 
 .close {
     align-self: center;
-    padding-right: 10px;
+    padding: 10px;
 }
-/*fin header*/
+/*fin header---------------------------------*/
 
-/*main*/
-main{
+/*main---------------------------------------*/
+main {
     /*background-color:#ff0008;*/
-    background: url(img/handmaids_main-1280x720-1.jpg),linear-gradient(90deg,#A63740,#1D2126);
-    background-repeat: no-repeat;
-    background-position: right;
+    background-color: #000000;
+    width: 100%;
     display: flex;
-    flex-direction: row;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
 }
 
+.imgfond {
+    width: auto;
+}
 
+.degrade {
+    padding: 0;
+    background: linear-gradient(to right, rgba(237, 63, 74, 1) 7.14%, rgba(204, 50, 52, 0.77) 28.15%, rgba(194, 38, 46, 0.54) 57.98%, rgba(109, 32, 38, 0.47) 84.45%, rgba(9, 7, 7, 0.36) 99.16%);
+}
+
+.blocimage-presentation {
+    display: flex;
+    align-items: center;
+    margin: 100px;
+}
 
 #imgban {
-    justify-content: flex-start;
-    flex-direction: column;
-    padding: 40px;
+    width: auto;
+    padding-left: 30px;
 }
 
 #presentation {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
     padding: 40px;
-
+    display: flex;
+    flex-direction: column;
 }
+
+h2 {
+    font-weight: 100;
+    font-size: 60px;
+    padding: 20px;
+}
+
+
+
+
 
 .genre>ul li::after {
-    content:" •";
+    content:"•";
+    word-spacing: 20px;
 }
+
+.genre>ul {
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 18px;
+}
+
+.description {
+    padding-left: 39px;
+    font-weight: 100;
+}
+
+.bouton {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 40px;
+    padding-left: 37px;
+}
+
+
+/*FIN main---------------------------------------*/
 
 .description_bas {
     display: inline;
